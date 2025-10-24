@@ -467,7 +467,7 @@ class _GeneralState extends State<_General> {
                 serviceBtnEnabled.value = true;
               });
             }();
-          }, enabled: serviceBtnEnabled.value))
+          }, enabled: false))	//禁用常规设置选项里的停止服务按钮 原代码 enabled: serviceBtnEnabled.value))
     ]);
   }
 
